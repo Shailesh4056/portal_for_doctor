@@ -1,0 +1,71 @@
+body{
+	margin:0;
+	padding:0;
+    background-image: url("1457378853878.jpg");
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;	
+}
+.containt{
+	width:320px;
+	height:480px;
+	 background-image: url("woman-doctor-white-lab-coat-stethocope-using-tablet-woman-doctor-white-lab-coat-stethoscope-using-tablet-153337269.jpg");
+	background-size:cover;
+	color:#000;
+	top:70px;
+	left:400px;
+	font-size:20px;
+	position:absolute;
+	transform:transparent(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+}
+.etc {
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50%;
+	left: calc(50%-40x);
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	font-size:40px;
+text-align:center
+}
+.containt p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.containt input{
+	width:250px;
+	margin-bottom:20px;
+}
+.containt input[type="username"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #000;
+	background:transparent;
+	outline:none;
+	width:400px
+}
+.containt input[type="submit"]
+{
+	border:none;
+	outline:none;
+	width:200px;
+	background:#53FF33;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.containt input[type="submit"]:hover{
+	background:#2bab0d;
+	border-radius:20px;
+}
+.err{
+	color:red;
+}
+	

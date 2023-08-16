@@ -1,0 +1,22 @@
+body{
+	margin:0;
+	padding:0;
+	 background-image:linear-gradient(rgba(244, 245, 244, 0.3), rgba(244, 245, 244, 0.8)),url(".jpg"); 
+	 background-size:cover;
+	
+}
+.slide{
+	 margin-left:30%;
+	 margin-top:100px;
+	 background:#fff;
+	 height:600px;
+	 width:800px;
+	 color:#000;
+}
+h1{
+	 margin-left:36%;
+	 margin-top:100px
+}
+.slide img{
+	margin-left:250px;
+}

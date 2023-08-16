@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url("general-practice-doctor-1920x1080.jpg");
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;	
+}
+.containt{
+	width:320px;
+	height:580px;
+	background:#fff;
+	color:#000;
+	top:70px;
+	left:600px;
+	position:absolute;
+	transform:transparent(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+}
+.project{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50%;
+	left: calc(50%-400x);
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	font-size:40px;
+text-align:center
+}
+.containt p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.containt input{
+	width:250px;
+	margin-bottom:20px;
+}
+.containt input[type="username"], input[type="password"], input[type="number"]
+{
+	border:none;
+	border-bottom:1px solid #000;
+	background:transparent;
+	outline:none;
+	width:200px
+}
+.containt textarea{
+	border:none;
+	border-bottom:1px solid #000;
+	background:transparent;
+	outline:none;
+	width:200px;
+}
+.containt input[type="submit"]
+{
+	border:none;
+	outline:none;
+	width:200px;
+	background:#53FF33;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.err{
+color:#FF0000;
+}
+
+.profil2{
+		width:320px;
+	height:380px;
+	font-size:15px;
+	background:rgba(0,0,0,0.3);
+	color:#fff;
+	top:90px;
+	left:600px;
+	position:absolute;
+	transform:transparent(-50%,-50%);
+	box-sizing:border-box;
+	padding:100px 30px;
+	border:5px solid rgba(255,255,255);
+}
+.maindiv{
+	background-color:#000;
+	background-size:100% 100%;
+	transform:translate(-50% -50%);
+	box-shadow:1px 2px 10px 3px #2DB4B4;
+	animation:slider 10s infinite linear;
+}
+@keyframes slider{
+	0% {background-color:#fff;}
+	25%{background-color:#34DB42 ;}
+    45%{background-color:#875D44 ;}
+	65%{background-color:#321C64 ;}
+    80%{background-color:#568F1A ;}
+}

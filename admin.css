@@ -1,0 +1,134 @@
+*{
+	padding:auto;
+	margin:auto;
+	list-style:none;
+	text-decoration:none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.slider{
+	position:absolute;
+	margin-bottom:20px;
+	left:0;
+	width:250px;
+	height:100%;
+	background:#2E2A28 ;
+	text-align:center;
+}
+.slider h1{
+font-size:20px;
+color:#fff;
+text-align:center;
+line-height:70px;
+background:#063146;
+user-select:none;
+margin-bottom:80px;
+border:1px solid rgba(255,255,255,0.2);
+}
+.slider ul li{
+	width:150px;
+	margin:5px;
+	padding:5px;
+	height:60px;
+	width:100%;
+}
+.slider ul li a{
+	size:5px;
+	text-decoration:none;
+	color:#fff;
+}
+.slider ul li a:hover{
+	background:#5F4C46;
+	border-radius:20px;
+	margin-top:15px;
+	margin-left:-15px;
+}	
+.manu-bar{
+	background:#342F2C ;
+	text-align:center;
+	margin-left:270px;
+	border:1px solid #BB8FCE;
+}
+.manu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#17202A;
+}
+.manu-bar ul li{
+	width:120px;
+	margin:5px;
+	padding:5px;
+}
+.manu-bar ul li a{
+	size:5px;
+	text-decoration:none;
+	color:#fff;
+}
+.active, .manu-bar ul li:hover{
+	background:#434040;
+	border-radius:5px;
+}
+.slide{
+	display:block;
+	position:absolute;
+	margin-bottom:20px;
+	left:0;
+	width:250px;
+	height:70%;
+	background:#2E2A28 ;
+	text-align:center;
+	margin-top:60px;
+	border:1px solid #fff;
+}
+.slide h1{
+font-size:20px;
+color:#fff;
+text-align:center;
+line-height:50px;
+background:#063146;
+user-select:none;
+margin-bottom:0px;
+border:1px solid rgba(255,255,255,0.2);
+transform :translaxtex(-250px);
+}
+.slide ul li{
+	width:100px;
+	margin:2px;
+	padding-top:80px;
+	height:0px;
+	width:100%;
+    
+}
+.slide ul li a{
+	size:5px;
+	text-decoration:none;
+	color:#fff;
+}
+.slide ul li a:hover{
+	background:#5F4C46;
+	border-radius:90px;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.sidebarIconToggle{
+	background:#000;
+	width:22px;
+	height:22px;
+	position:absolute;
+	z-index:none;
+	top:15px;
+	cursor:pointer;
+}
+.slide fa fa
+{
+	background:#fff;
+}
+.take{
+        background-image:url(".jpg");
+		background-size:cover;
+		text-align:center;
+		margin-top:30px;
+}
+
+	

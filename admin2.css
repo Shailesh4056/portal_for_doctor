@@ -1,0 +1,326 @@
+*{
+	margin:0;
+	padding:0;
+    box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.naver{
+	display:flax;
+	align-items:center;
+	padding:20px;
+}
+nav{
+	flex:1;
+	text-align:right;
+	
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+	margin-top:top;
+}
+.naver nav ul li a{
+	text-decoration:none;
+	color:#17202A;
+}
+.containt
+{
+	max-width:1300px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+.row{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.col-2
+{
+	flex-basis:50%;
+	min-width:300px;
+	margin:auto;
+	padding-left:50px;
+	padding-right:25px;
+}
+.col-2 img
+{
+	max-width:100%;
+	padding:120px 20;
+	padding-left:90px;
+}
+.col-2 h1
+{
+	font-size:50px;
+	line-height:60px;
+	margin:25px;
+}
+.btn{
+	display:inline-block;
+	background:#3498DB;
+	color:#fff;
+	padding:8px 30px;
+	margin:30px 0px;
+	border-radius:30px;
+	text-decoration:none;
+	transition:background 0.5s;
+}
+.btn:hover
+{
+	background:#CB3D3D;
+}
+.header
+{
+	background:radial-gradient(#fff,#ffd6d6);
+	
+}
+.header .raw
+{
+	margin-top:14px;
+}
+.active,  nav ul li:hover{
+	background:#F1948A;
+}
+.categories{
+	margin:70px 0;
+}
+.col-3{
+	padding:20px;
+	flex-basis: 25%;
+	padding:10px;
+	min-width:200px;
+	margin-bottom:50px;
+}
+.col-3 img{
+	width:100%;
+}
+.col-4
+{
+	flex-basis: 25%;
+	padding:10px;
+	min-width:200px;
+	margin-bottom:50px;
+	transition:transform 0.5s;
+}
+h4{
+	color:#555;
+	font-weight:normal;
+}
+.rating .fa {
+	color:#45B941;
+	background:#fff;
+}
+.detailes
+{
+	background:#fff;
+}
+.col-4:hover{
+	transform:translatey(-10px);
+}
+/*---------offer-------*/
+.offer{
+	background: #89807E;
+	margin-top:50px;
+	padding:20px 0;
+}
+small{
+	color:#FBFCFC ;
+}
+.maindiv{
+	margin-top:40px;
+	margin-left:70px;
+	width:90%;
+	height:500px;
+	position:absolute;
+	left:20px;
+	right:40px;
+	background-image:url(zsw.jpg);
+	background-size:100% 100%;
+	transform:translate(-50% -50%);
+	box-shadow:1px 2px 10px 3px #2DB4B4;
+	animation:slider 10s infinite linear;
+}
+@keyframes slider{
+	0% {background-image:url(zsw.jpg);}
+	25%{background-image:url(hrty.jpg);}
+    45%{background-image:url(zasd.png);}
+	65%{background-image:url(74656707.jpg);}
+    80%{background-image:url(crocin-advance-tablets-e1605720839516.jpg);}
+}
+
+
+.brands{
+	margin:50px auto;
+	background:#fff;
+}
+.col-5{
+	width:160px;
+}
+.col-5 img{
+	width:100%;
+	cursor:pointer;
+	filter:grayscale(100%);
+}
+.col-5 img:hover{
+filter:grayscale(0%);
+}
+.footer{
+	background:#000;
+	color:#8a8a8a;
+	font-size:14px;
+	padding:60px 10px 40px 60px;
+}
+.footer p{
+	color:#8a8a8a;
+}
+.footer h3{
+	color:#fff;
+	margin-bottom:20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+min-width:250px;
+margin-bottom:15px;
+}
+.footer-col-1{
+	flex-basis:30%;
+}
+.footer-col-2
+{
+	flex:1;
+	text-align:center;
+}
+.footer-col-2 img{
+	width:150px;
+	height:60px;
+	
+}
+.footer-col-3, .footer-col-4{
+	flex-basis:12%;
+	text-align:center;
+}
+ul{
+	list-style-type:none;
+}
+.kjkj{
+	background:#FC0000;
+	width:100;
+}
+.kjk{
+	background:#0B64B4;
+	width:100;
+	padding-bottom:10px;
+}
+.app-logo{
+	margin-top:20px;
+}
+.app-logo img{
+	width:100px;
+}
+.footer hr{
+	border:none;
+	background: #b5b5b5;
+	height:2px;
+	margin:20px;
+}
+.you{
+	text-align:center;
+}
+.manu-icon{
+	width:28px;
+	margin-left:20px;
+	display:none;
+}
+.rows-2{
+	margin:150px auto 50px;
+	justify-content:space-between;
+}
+select{
+	border:1px solid #ff523b;
+	padding:5px;
+}
+select:focus{
+	outline:none;
+}
+.page-btn{
+	margin:0 550px 80px;
+}
+.page-btn span{
+	display:inline-block;
+	border:1px solid;
+	margin-left:0px;
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+	
+}
+.page-btn span:hover{
+	color:#ff523b;
+}
+.shell{
+	margin-top:450px;
+}
+.shell col-2 img
+{
+	padding:0;
+	width:100%;
+}
+.shell col-2{
+	padding:20px;
+}
+.shell h4{
+	margin:20px 0px;
+	font-size:20px;
+	font-weight:bold;
+}
+.shell select{
+	display:block;
+	padding:5px;
+	margin-bottom:20px;
+}
+.shell input{
+	width:50px;
+	height:40px;
+	padding-left:10px;
+	margin-right:10px;
+	font-size:20px;
+	display:inline-block;
+	border:1px solid #ff523b;		
+}
+.shell input:focus{
+	outline:none;
+}
+
+/*----------------------------------- sffvssv---------------------------*/
+@media (max-width:800px){
+	
+	nav ul{
+		position:absolute;
+		top:70px;
+		left:0;
+		background:#fff;
+		width:100%
+	}
+	
+	nav ul li{
+		display:block;
+		margin-right:50px;
+		margin-top:10px;
+}
+.manu-icon{
+	display:inline-block;
+	cursor:pointer;
+}
+}
+
+
+		
+	
